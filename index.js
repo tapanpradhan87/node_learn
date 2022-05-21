@@ -35,4 +35,4 @@ app.use('/user', userController);
 //   res.json({ name: 'I m POST', reqBody: { ...req.body } })
 // })
 
-app.listen(3500)
+app.listen(process.env.PORT || 3500)
